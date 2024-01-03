@@ -1,0 +1,13 @@
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\bin\Debug\Attendance System.exe.config
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\bin\Debug\Attendance System.exe
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\bin\Debug\Attendance System.pdb
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\bin\Debug\Attendance System.xml
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.vbproj.AssemblyReference.cache
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance_System.Form1.resources
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance_System.Resources.resources
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.vbproj.GenerateResource.cache
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.exe
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.xml
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.pdb
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance_System.FormMenuUtama.resources
