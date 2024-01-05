@@ -7,7 +7,7 @@
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
         If TxtUsername.Text = "" And TxtPassword.Text = "" Then
             MsgBox("Username dan Password tidak boleh kosong!", MsgBoxStyle.Exclamation, "Isi Username dan Password")
-        ElseIf TxtUsername.Text = "Farrezs" And TxtPassword.Text = "23456" Then
+        ElseIf TxtUsername.Text = "farrezs" And TxtPassword.Text = "12345" Then
             MsgBox("Login Berhasil", MsgBoxStyle.Information, "Akses Berhasil")
             FormMenuUtama.Show()
             Me.Hide()
@@ -37,7 +37,7 @@
         If Asc(e.KeyChar) = 13 Then
             If TxtUsername.Text = "" And TxtPassword.Text = "" Then
                 MsgBox("Username dan Password tidak boleh kosong!", MsgBoxStyle.Exclamation, "Isi Username dan Password")
-            ElseIf TxtUsername.Text = "Farrezs" And TxtPassword.Text = "23456" Then
+            ElseIf TxtUsername.Text = "farrezs" And TxtPassword.Text = "12345" Then
                 MsgBox("Login Berhasil", MsgBoxStyle.Information, "Akses Berhasil")
                 FormMenuUtama.Show()
                 Me.Hide()
@@ -49,11 +49,8 @@
         End If
     End Sub
 
-    Private Sub TxtAbout_TextChanged(sender As Object, e As EventArgs)
-        sender = MsgBox("Version 1.1")
-    End Sub
-
-    Private Sub LblAbout_Click(sender As Object, e As EventArgs) Handles LblAbout.Click
-        sender = MsgBox("Version 1.1")
+    Private Sub BtnCancel_Click(sender As Object, e As EventArgs) Handles BtnCancel.Click
+        Call Bersih()
+        TxtUsername.Focus()
     End Sub
 End Class

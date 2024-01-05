@@ -11,3 +11,4 @@ D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance
 D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.xml
 D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance System.pdb
 D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance_System.FormMenuUtama.resources
+D:\Kuliah\Visual Studio\Attendance System\Attendance System\obj\Debug\Attendance_System.FormAbsensi.resources

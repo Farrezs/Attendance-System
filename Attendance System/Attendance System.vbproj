@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -73,17 +73,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Log in.vb">
-      <SubType>Form</SubType>
+    <Compile Include="FormAbsensi.Designer.vb">
+      <DependentUpon>FormAbsensi.vb</DependentUpon>
     </Compile>
-    <Compile Include="Log in.Designer.vb">
-      <DependentUpon>Log in.vb</DependentUpon>
+    <Compile Include="FormAbsensi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMenuUtama.Designer.vb">
       <DependentUpon>FormMenuUtama.vb</DependentUpon>
     </Compile>
     <Compile Include="FormMenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log in.Designer.vb">
+      <DependentUpon>Log in.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,11 +109,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Log in.resx">
-      <DependentUpon>Log in.vb</DependentUpon>
+    <EmbeddedResource Include="FormAbsensi.resx">
+      <DependentUpon>FormAbsensi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log in.resx">
+      <DependentUpon>Log in.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -127,6 +136,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\absen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
